@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": true, // Define que o código será executado em um ambiente de navegador
+    "es2021": true // Define o suporte para as funcionalidades do ECMAScript 2021
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest", // Permite o uso das últimas features do ECMAScript
+    "sourceType": "module" // Define o código como módulos ES (import/export)
+  },
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ], // Exige o uso de ponto e vírgula
+    "quotes": [
+      "error",
+      "double"
+    ], // Exige o uso de aspas duplas
+    "no-unused-vars": [
+      "warn"
+    ], // Mostra um aviso sobre variáveis não utilizadas
+    "eqeqeq": [
+      "error",
+      "always"
+    ], // Exige o uso de '===' e '!==' ao invés de '==' e '!='
+    "no-console": "warn", // Mostra um aviso quando console.log é usado
+    "curly": [
+      "error",
+      "all"
+    ], // Exige que todas as estruturas condicionais usem chaves
+    "indent": [
+      "error",
+      2
+    ], // Exige indentação de 2 espaços
+    "no-var": "error", // Não permite o uso de 'var', apenas 'let' e 'const'
+    "prefer-const": "error", // Prefere 'const' quando variáveis não são reatribuídas
+    "no-trailing-spaces": "error" // Não permite espaços em branco no final de linhas
+  }
+}
